@@ -32,7 +32,7 @@ Open:
 
 ## GitHub Publish Checklist
 - [x] Update Markdown docs
-- [ ] Initialize git repository
-- [ ] Create first commit
-- [ ] Add remote origin
-- [ ] Push branch `main` to GitHub
+- [x] Initialize git repository
+- [x] Create first commit
+- [x] Add remote origin
+- [x] Push branch `main` to GitHub
