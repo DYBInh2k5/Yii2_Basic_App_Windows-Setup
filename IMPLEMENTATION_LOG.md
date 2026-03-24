@@ -32,6 +32,9 @@ Open:
 - Updated README to full Vietnamese with accents.
 - Added CHANGELOG.md for release tracking.
 - Added GitHub Actions CI workflow for PHP syntax validation.
+- Added CI badge to README.
+- Added RELEASE_NOTES.md template.
+- Added conditional PHPUnit workflow for GitHub Actions.
 
 ## GitHub Publish Checklist
 - [x] Update Markdown docs

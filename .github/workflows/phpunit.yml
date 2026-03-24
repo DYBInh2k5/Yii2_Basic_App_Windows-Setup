@@ -1,0 +1,33 @@
+name: PHPUnit
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  phpunit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          coverage: none
+
+      - name: Install dependencies (including dev)
+        run: composer install --prefer-dist --no-interaction --no-progress
+
+      - name: Run PHPUnit when config exists
+        shell: bash
+        run: |
+          if [ -f phpunit.xml ] || [ -f phpunit.xml.dist ]; then
+            vendor/bin/phpunit
+          else
+            echo "No phpunit.xml or phpunit.xml.dist found. Skipping PHPUnit run."
+          fi

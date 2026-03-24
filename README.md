@@ -1,5 +1,7 @@
 # Yii2 Basic App (Windows Setup)
 
+[![CI](https://github.com/DYBInh2k5/Yii2_Basic_App_Windows-Setup/actions/workflows/ci.yml/badge.svg)](https://github.com/DYBInh2k5/Yii2_Basic_App_Windows-Setup/actions/workflows/ci.yml)
+
 Dự án được tạo từ Yii2 Basic template và đã được chỉnh lại để chạy ổn định trên Windows.
 
 ## 1) Môi trường
@@ -75,3 +77,4 @@ Nếu đã có origin, bỏ qua lệnh add remote và push trực tiếp.
 
 - [IMPLEMENTATION_LOG.md](IMPLEMENTATION_LOG.md)
 - [CHANGELOG.md](CHANGELOG.md)
+- [RELEASE_NOTES.md](RELEASE_NOTES.md)

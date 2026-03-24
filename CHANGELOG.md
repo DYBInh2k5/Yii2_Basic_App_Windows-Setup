@@ -10,6 +10,9 @@ Tất cả thay đổi đáng chú ý của dự án sẽ được ghi trong fil
 - Thêm tài liệu dự án tiếng Việt trong README.
 - Thêm log triển khai tại IMPLEMENTATION_LOG.md.
 - Thêm GitHub Actions CI để kiểm tra cú pháp PHP.
+- Thêm badge trạng thái CI trong README.
+- Thêm file RELEASE_NOTES.md làm mẫu ghi chú phát hành.
+- Thêm workflow kiểm tra PHPUnit theo điều kiện (chạy khi có cấu hình phù hợp).
 
 ### Changed
 - Cập nhật cấu hình dev module trong config để chạy ổn khi không cài gói dev.
