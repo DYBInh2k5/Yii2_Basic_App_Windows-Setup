@@ -29,6 +29,9 @@ Open:
 - README replaced from default template to project-specific setup guide.
 - Added clear run instructions and GitHub push flow.
 - Documented reason for no-dev install (`ext-curl` missing in current PHP setup).
+- Updated README to full Vietnamese with accents.
+- Added CHANGELOG.md for release tracking.
+- Added GitHub Actions CI workflow for PHP syntax validation.
 
 ## GitHub Publish Checklist
 - [x] Update Markdown docs
